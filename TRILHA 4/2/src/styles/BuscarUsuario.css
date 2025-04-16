@@ -1,0 +1,40 @@
+.cadastrar-usuario-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.cadastrar-usuario-input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.cadastrar-usuario-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cadastrar-usuario-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.cadastrar-usuario-mensagem {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
